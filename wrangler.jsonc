@@ -1,0 +1,6 @@
+{
+    "$schema": "https://www.unpkg.com/wrangler@4.50.0/config-schema.json",
+    "name": "elysia-on-cloudflare",
+    "main": "platforms/worker.ts",
+    "compatibility_date": "2025-11-22"
+}
