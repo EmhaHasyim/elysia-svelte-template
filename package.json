@@ -6,10 +6,16 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@cloudflare/workers-types": "^4.20251121.0",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.31.7",
+    "tsx": "^4.20.6",
+    "wrangler": "^4.50.0"
   },
   "module": "src/index.js"
 }
