@@ -1,0 +1,13 @@
+{
+  "$schema": "https://www.unpkg.com/wrangler@4.50.0/config-schema.json",
+  "name": "elysia-on-cloudflare",
+  "main": "platforms/worker.ts",
+  "compatibility_date": "2025-11-22",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "database",
+      "database_id": "id",
+    },
+  ],
+}
